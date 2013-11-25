@@ -18,7 +18,7 @@ function requireMidi (dir, instruments) {
 
     MIDI.loadPlugin({
       soundfontUrl: dir + "/soundfont/",
-      instruments: [ "acoustic_grand_piano", "synth_drum" ],
+      instruments: instruments,
       callback: ready
     });
   });
