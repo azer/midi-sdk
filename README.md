@@ -2,7 +2,7 @@
 Require [MidiJS](https://github.com/mudcube/MIDI.js)' SDK Asynchronously
 
 ```js
-midi = require('midi-sdk')('path/to/midi', ['acoustic_grand_piano', 'synth_drum'])
+midi = require('midi-sdk')('path/to/midi/repo', ['acoustic_grand_piano', 'synth_drum'])
 
 midi(function () {
   MIDI.noteOn(1, note, velocity, delay)
