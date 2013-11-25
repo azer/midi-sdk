@@ -1,5 +1,5 @@
 ## midi-sdk
-Require MidiJS' SDK Asynchronously
+Require [MidiJS](https://github.com/mudcube/MIDI.js)' SDK Asynchronously
 
 ```js
 midi = require('midi-sdk')('path/to/midi', ['acoustic_grand_piano', 'synth_drum'])
