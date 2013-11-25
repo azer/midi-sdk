@@ -30,5 +30,3 @@ midi(function () {
   MIDI.noteOn(1, note, velocity, delay)
 })
 ```
-
-
