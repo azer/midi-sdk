@@ -1,0 +1,27 @@
+{
+  "name": "midi-sdk",
+  "version": "0.0.0",
+  "description": "Require MidiJS' SDK Asynchronously",
+  "main": "index.js",
+  "scripts": {
+    "test": "prova"
+  },
+  "devDependencies": {
+    "prova": "*"
+  },
+  "keywords": [
+    "midi",
+    "sdk"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/midi-sdk.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD",
+  "dependencies": {
+    "require-sdk": "0.0.2",
+    "map": "0.0.2",
+    "load-script": "0.0.2"
+  }
+}
